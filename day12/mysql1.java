@@ -1,6 +1,6 @@
 package day12;
 
-
+import java.sql.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -8,10 +8,10 @@ import java.sql.Statement;
 
 public class mysql1 {
     public static void main(String[] args) throws Exception {
-        String url = "jdbc:mysql://localhost:3306/backEnd";
+        String url = "jdbc:mysql://localhost:3306/jdbcdemo1";
         String username = "root";
         String password = "Mukilan@2003";
-        String query = "SELECT * FROM STUDENTS";
+        String query = "SELECT * FROM emp1";
         try {
             Connection con = DriverManager.getConnection(url, username, password);
             Statement st = con.createStatement();
