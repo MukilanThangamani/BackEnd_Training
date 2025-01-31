@@ -43,7 +43,7 @@ java StudentInfo
 1.Adding a Student
 Select 1 to add a new student.
 
-Enter the student's ID, name, age, grade, and email when prompted.
+Enter the student's ID, name, age, grade, and email .
 ---------------------------------------------------------------------------------------------------------------
 
 2.Viewing Students
@@ -55,7 +55,7 @@ The details of all students will be displayed.
 3.Searching a Student
 Select 3 to search for a student by ID.
 
-Enter the student's ID when prompted.
+Enter the student's ID .
 
 The details of the student will be displayed if found.
 ---------------------------------------------------------------------------------------------------------------
@@ -63,13 +63,13 @@ The details of the student will be displayed if found.
 4.Updating a Student
 Select 4 to update a student's details.
 
-Enter the student's ID and the new details when prompted.
+Enter the student's ID and the new details .
 ---------------------------------------------------------------------------------------------------------------
 
 5.Deleting a Student
 Select 5 to delete a student by ID.
 
-Enter the student's ID when prompted.
+Enter the student's ID .
 ---------------------------------------------------------------------------------------------------------------
 6.Exit
 Select 6 to Exit.
