@@ -1,0 +1,6 @@
+100,abi,10,a,abi123@gmail.com
+101,akash,12,s,akash234@gmail.com
+102,jai,19,b,jai123@gmail.com
+104,fazel,21,a,fazel123@gmail.com
+105,ganesh,19,a,gan342@gmail.com
+104,dayal,19,f,day13@gmail.com
