@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Register a course</title>
+        <style>
+            body{
+                background-color: black;
+                text-align: center;
+            }
+            form{
+                margin: auto;
+                padding: 20px;
+                width: 400px;
+                background-color: #fff;
+            }
+            input,select,button{
+                width: 90%;
+                padding: 10px;
+                margin: 10px;
+            }
+            button{
+                background-color: #4CAF50;
+                color: white;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer; 
+            }
+            button:hover{
+                background-color: #104212;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: yellow;">KickStart with an course</h1>
+        <form action="http://localhost:8080/course/register" method="post">
+            <label for="name">Enter your name:</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label for="emailId">Enter your emailId:</label><br>
+            <input type="email" name="emailId"><br><br>
+
+            <label for="courseName">Choose a Course</label><br>
+            <select id="course" name="courseName">
+                <option value="Java">Java</option>
+                <option value="Spring">Spring</option>
+                <option value="MongoDB">MongoDB</option>
+              </select>
+
+              <br><br>
+              <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
